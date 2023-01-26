@@ -1,0 +1,16 @@
+import { ColDef } from 'ag-grid-community';
+
+
+export const Columns: ColDef[] = [
+    { field: 'deployEnv'},
+    { field: 'tagName'},
+    { field: 'branch'},
+    { field: 'version'},
+    { field: 'timestamp'},
+    { field: 'project' }
+    ];
+
+  export const DefaultColDef: ColDef = {
+        sortable: true,
+        filter: true,
+     };
